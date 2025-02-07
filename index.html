@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio </title>
+    <link rel="stylesheet" href="style .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">My Portfolio</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>Hi I am <span>Sunil</span> </h4>
+                <h3>And I am a <span>passionate</span> <br>Web Developer</h3>
+                <!-- Add your photo here -->
+                <span id="element"></span>
+
+              
+               
+        </div>
+    </div>
+   
+
+    <!-- .........about..... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="black background.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">about me</h1>
+                    <p>"I am a passionate web developer dedicated to crafting clean, user-friendly, and responsive
+                        websites. With a focus on innovation and functionality, I bring ideas to life through code and
+                        creativity."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>web app development</li>
+                            <li><span>app development</span><br>building Android /ios apps</li>
+                            <li><span>Personal Project</span><br>Portfolio Website</li>
+                            <li><span>ui/ux</span><br>designing web/app interfaces</li>
+                            <li><span>domastic Project</span><br>E-commerce Website</li>
+                            <li><span>Technologies</span><br> HTML/CSS, JavaScript, Bootstrap
+                                - Skills Demonstrated: Web development, design
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>designing web/app interfaces
+                                in giet collage</li>
+                            <li><span>role</span><br>Team leader </li>
+                            <li><span>skills Demonstrated</span><br>Leadership,coading,circuit design</li>
+                            <li><span>internship/Traning</span><br>Excelr,Full Stack Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.tech(Bachelor of Technology)-2022-2026</span><br>Godavari institute of
+                                Engineering and Technology, Andhra pradesh (India),cgpa (8.4)</li>
+                            <li><span>12th-(2020-2022)</span><br>k.k mandal collage,Ara (Bihar), marks-70%</li>
+                            <li><span>10th-2020</span><br>high schhol,Ara (Bihar), marks 68%</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .............Services....... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Web Design</h2>
+                    <p>Hello! I'm sunil, a passionate web designer/developer
+                        With 2 years of experience.<br> in crafting visually
+                        stunning and digital experiences.<br> I
+                        help businesses and individuals bring their ideas to web Design. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+
+                    <h2>App Design</h2>
+                    <p>As a seasoned app designer, I leverage my expertise in UI/UX design,<br>
+                        wireframing, and interaction design to deliver high-quality mobile experiences.<br>
+                        View my portfolio to learn more."
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+
+                    <h2>Ui/Ux design</h2>
+                    <p>- a passionate UI/UX designer dedicated to crafting intuitive and engaging digital experiences.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .........portfolio works...,,, -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="web d 10.avif">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>A portfolio website is an online platform showcasing an individual's
+                            <br> or organization's work, skills, and achievements.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="uiux.avif">
+                    <div class="layer">
+                        <h3>E-commerce website</h3>
+                        <p>An e-commerce website is an online platform that allows businesses to sell products
+                            or services directly to customers through the internet.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="app d02.avif">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app is a software application that enables users to<br>
+                            create, share, and interact with content, information, or other users<br>
+                            in a virtual environment.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ......contact............ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> sunilky180@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9135028285</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sunil-kumar-2b8862327"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sunilky123456"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/sunilsagar650/profilecard/?igsh=N2tobWVuNXpzcXV3"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100050637580284&mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="http://www.youtube.com/@4GlobalHub"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a3c8bd20-5227-44dd-bffd-b5f7f2776519">
+                        <input type="text" name="Name" placeholder="Your name " required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ sunil Kumar . Made by <i class="fa-solid fa-heart"></i> easy</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ['Web Designer.', 'Graphic Designer', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
